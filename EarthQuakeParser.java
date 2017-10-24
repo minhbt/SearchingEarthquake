@@ -90,7 +90,7 @@ public class EarthQuakeParser {
             System.err.println("parser configuration exception");
         }
         catch (SAXException se){
-            System.err.println("sax exception");
+            System.err.println("sax exception " + se.getMessage() );
         }
         catch (IOException ioe){
             System.err.println("ioexception");
